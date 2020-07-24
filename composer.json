@@ -1,5 +1,5 @@
 {
-  "name": "cron/neos-monoclepreviewsite",
+  "name": "cron-eu/neos-monoclepreviewsite",
   "type": "neos-site",
   "require": {
     "sitegeist/monocle": "^6.2"
