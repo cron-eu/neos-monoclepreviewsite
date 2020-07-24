@@ -1,0 +1,6 @@
+Neos:
+  Flow:
+    mvc:
+      routes:
+        'CRON.MonoclePreviewSite':
+          position: 'start'

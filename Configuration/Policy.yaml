@@ -1,0 +1,15 @@
+#
+# Security Policy for MonoclePreviewSite
+#
+
+privilegeTargets:
+  'Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege':
+    'CRON.MonoclePreviewSite:Redirect':
+      matcher: 'method(CRON\MonoclePreviewSite\Controller\RedirectController->redirectAction())'
+
+roles:
+  'Neos.Flow:Everybody':
+    privileges:
+      -
+        privilegeTarget: 'CRON.MonoclePreviewSite:Redirect'
+        permission: GRANT

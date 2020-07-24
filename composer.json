@@ -1,0 +1,17 @@
+{
+  "name": "cron/neos-monoclepreviewsite",
+  "type": "neos-site",
+  "require": {
+    "sitegeist/monocle": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CRON\\MonoclePreviewSite\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "CRON.MonoclePreviewSite"
+    }
+  }
+}
