@@ -1,6 +1,7 @@
 {
   "name": "cron-eu/neos-monoclepreviewsite",
   "type": "neos-site",
+  "license": "MIT",
   "require": {
     "sitegeist/monocle": "^6.2"
   },
