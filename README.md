@@ -10,7 +10,6 @@ Just require this package and you get:
 - Styleguides from your neos-packages rendered (else you get an exception about a
   missing site)
 - A routing from "/" to the monocle preview backend
-- Simplified routes to monocle endpoints (/preview/ instead of /preview/monocle/module)
 
 Some pieces of this might be obsoleted in later versions of Monocle. See:
 - https://github.com/sitegeist/Sitegeist.Monocle/issues/115
