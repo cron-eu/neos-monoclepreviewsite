@@ -3,7 +3,7 @@
   "type": "neos-site",
   "license": "MIT",
   "require": {
-    "sitegeist/monocle": "^6.2"
+    "sitegeist/monocle": "^7.5"
   },
   "autoload": {
     "psr-4": {
